@@ -1,1 +1,1 @@
-## https://takahashikazunari001.github.io/lib/build/
+## https://takahashikazunari001.github.io/lib/

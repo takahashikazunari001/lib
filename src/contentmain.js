@@ -41,17 +41,20 @@ const ArticleLink = ({bannar,url,str,day}) => {
 
 const Maincontent = () => (
   <div className="global-Maincontent">
-          <div className='special-image'>
-      {randumView(imgArray1)}
-      {randumView(imgArray2)}
-      {randumView(imgArray3)}
-      {randumView(imgArray4)}
+      <div className='special-image'>
+        {/*
+        {randumView(imgArray1)}
+        {randumView(imgArray2)}
+        {randumView(imgArray3)}
+        {randumView(imgArray4)}
+        */}
       </div>
       <div className='osiraseIvent'>
         {/* imgSrc,imgAlt,imgTitle */}
       
 
         <h2>お知らせ・イベント</h2>
+        {/* 
         <ArticleLink bannar="osirase" url="news/news/index.html#20220915" str="図書館の利用について（9月15日から）" day="2022/9/15"/>
         <ArticleLink bannar="osirase" url="news/news/index.html#20230202" str="リサイクル本の配布" day="2023/2/2"/>
         <ArticleLink bannar="" url="" str="" day=""/>
@@ -83,6 +86,7 @@ const Maincontent = () => (
         <ArticleLink bannar="osiraseImg" url="news/news/index.html#20210910-2" str="中央図書館の駐車場・駐輪場について" day="2021/9/10" />
         <ArticleLink bannar="osiraseImg" url="service/request/index.html#jirei" str="「調べ方案内・レファレンス事例集」を公開しました。" day="2020/12/11" />
         <ArticleLink bannar="osiraseImg" url="service/request/index.html#link" str="「新型コロナウイルス感染症関連情報」をまとめました。" day="2020/6/4" />
+        */}
       </div>
   </div>
 )

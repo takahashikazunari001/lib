@@ -65,7 +65,7 @@
   .special-image img{
     width: 50%;
   }
-  @media (max-width: 1240px){
+  @media (max-width: 720px){
     p{
       border:gainsboro solid 0.5px;
       font-size: 2rem;

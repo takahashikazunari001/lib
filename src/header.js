@@ -8,7 +8,10 @@ const sizem = () =>  document.body.style.fontSize = "100%"
 
 const Header = () => (
   <div className="header">
-    <IMG imgSrc="./images/library_logo.gif" imgAlt="浦安市立図書館" imgTitle="浦安市立図書館" />
+    <img src="./images/lib_log.svg" style={{width:"15rem",paddingRight:"0.5rem"}} alt=""/>
+
+    {/*<IMG imgSrc="./images/library_logo.gif" imgAlt="浦安市立図書館" imgTitle="浦安市立図書館" />*/}
+
 
     <div className="font-size">
       <font style={{color:"black", paddingRight:"1rem", fontWeight: "bold", textAlign:"center"}}>文字の大きさ</font>
